@@ -415,7 +415,7 @@ input[type="submit"] {
 }
 
 /*
- * Re-set default cursor for disabled elements
+ * Re-set hm_resume cursor for disabled elements
  */
 
 button[disabled],
@@ -470,7 +470,7 @@ input::-moz-focus-inner {
 }
 
 /*
- * 1. Removes default vertical scrollbar in IE6/7/8/9
+ * 1. Removes hm_resume vertical scrollbar in IE6/7/8/9
  * 2. Improves readability and alignment in all browsers
  */
 

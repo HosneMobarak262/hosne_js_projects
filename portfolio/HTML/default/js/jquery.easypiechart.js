@@ -246,7 +246,7 @@ var EasyPieChart = function(el, opts) {
 		this.el = el;
 		this.options = options;
 
-		// merge user options into default options
+		// merge user options into hm_resume options
 		for (var i in defaultOptions) {
 			if (defaultOptions.hasOwnProperty(i)) {
 				options[i] = opts && typeof(opts[i]) !== 'undefined' ? opts[i] : defaultOptions[i];
