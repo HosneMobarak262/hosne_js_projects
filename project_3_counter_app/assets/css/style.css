@@ -1,0 +1,97 @@
+:root {
+    --dark-lilac: #E05CE0FF;
+    --lilac: #C8A2C8;
+    --blue-gray: #6699CC;
+    --blue-gray-dark: #728fa9;
+    --light-gray: #d0cdcd;
+}
+
+@font-face {
+    font-family: playfairExtraBold;
+    src: url(../font/Playfair_Display/static/PlayfairDisplay-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: playfairBold;
+    src: url(../font/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: playfairRegular;
+    src: url(../font/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+body{
+    background-image: url("../../assets/img/10136775_17973908.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: playfairRegular;
+}
+
+.col{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: lightcyan;
+    text-align: center;
+    color: var(--blue-gray);
+    border-radius: 20px;
+}
+.row{
+    width: 75%;
+}
+.row >*{
+    margin-left: 22.5%;
+}
+div input{
+    background-color: transparent;
+    width: 70%;
+    margin-top: 0.4rem !important;
+    border-color: var(--lilac);
+    border-radius: 10px;
+
+}
+div label{
+    background-color: transparent;
+    margin-top: 1rem !important;
+}
+div button{
+    background-color: transparent;
+    margin-top: 1.5rem !important;
+    color: var(--light-gray);
+    border-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 3rem !important;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+div span{
+    background-color: transparent;
+    margin-top: 1rem !important;
+    font-family: playfairBold;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: var(--blue-gray-dark);
+    font-size: 25px;
+}
+
+.myTitle{
+    margin-top: 3rem !important;
+    font-family: playfairExtraBold;
+}
+
+/* button backgrounds */
+.subtract{
+    background-color: rgba(222, 63, 63, 0.81);
+}
+
+.reset{
+    background-color: #a776de;
+}
+
+.add{
+    background-color: #108310;
+}
